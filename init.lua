@@ -3,7 +3,7 @@ require("config.lazy")
 
 require("tabnine").setup({
   disable_auto_comment = true,
-  accept_keymap = "<M-t>",
+  accept_keymap = "<M-t>", -- <Option>+<t>
   dismiss_keymap = "<C-]>",
   debounce_ms = 800,
   suggestion_color = { gui = "#808080", cterm = 244 },
